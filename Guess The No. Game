@@ -1,3 +1,4 @@
+//Using for loop
 let gameNum=37;
 let userNum=prompt("Enter any Number :");
 for (;userNum!=gameNum;)
@@ -5,4 +6,13 @@ for (;userNum!=gameNum;)
     console.log("The Number You entered is wrong.");
     userNum=prompt("Try new Number.");
   }
+console.log("Congratulations You guessed the right Number");
+
+//Using while loop 
+let gameNum=39;
+let userNum=prompt("Enter any Number :");
+while (gameNum!=userNum)
+{
+userNum=prompt("You guessed wrong No. Please try again");
+}
 console.log("Congratulations You guessed the right Number");
