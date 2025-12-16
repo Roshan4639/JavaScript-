@@ -1,0 +1,9 @@
+//Average marks from an array 
+let marks = [85,97,44,37,79,60];
+let students=marks.length;
+let totalMarks=0;
+for (let i=0;i<marks.length;i++)
+{   
+   totalMarks+=marks[i];
+}
+    console.log(`Average Marks of the entire class is ${totalMarks/students}`);
