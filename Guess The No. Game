@@ -1,0 +1,8 @@
+let gameNum=37;
+let userNum=prompt("Enter any Number :");
+for (;userNum!=gameNum;)
+  {
+    console.log("The Number You entered is wrong.");
+    userNum=prompt("Try new Number.");
+  }
+console.log("Congratulations You guessed the right Number");
