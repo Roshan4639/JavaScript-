@@ -1,0 +1,11 @@
+/* Create an array to store companies- Bloomberg , Microsoft , Uber , Google , IBM, Netflix.
+1-Remove the first company from the array
+2-Remove Uber & Add ola in its place
+3-Add amazon at the end*/
+let companies=['Bloomberg','Microsoft','Uber','Google','IBM','Netflix'];
+companies.shift();
+console.log(companies);
+companies.splice(1,1,"Ola");
+console.log(companies);
+companies.push("Amazon");
+console.log(companies);
