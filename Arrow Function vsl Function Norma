@@ -1,0 +1,23 @@
+//sum using normal function 
+function sum(a,b){
+    return a+b;
+}
+console.log(sum(7,8));
+
+//sum using arrow function
+  const arrowSum = (a,b)=>{
+    return a+b;
+}
+console.log(arrowSum(7,8));
+
+//multiplication using normal function
+function mul(a,b){
+    return a*b;
+}
+console.log(mul(7,8));
+
+//multiplication using arrow function 
+  const arrowMul = (a,b)=>{
+    return a*b;
+}
+console.log(arrowMul(7,8));
