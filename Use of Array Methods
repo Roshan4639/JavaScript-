@@ -1,0 +1,15 @@
+let cars=["Mercedes","BMW","Audi","Porsche","Wagnor"];
+let bikes=['Pulsar','KTM','Apache','splendor'];
+cars.push("Jaguar","Mclaren");
+console.log(cars);
+cars.pop();
+console.log(cars);
+console.log(cars.toString());
+console.log(bikes.concat(cars));
+console.log(bikes);
+cars.unshift("Hilux","XUV700");
+console.log(cars);
+cars.shift();
+console.log(cars);
+cars.splice(5,1,"Lambo");
+console.log(cars);
