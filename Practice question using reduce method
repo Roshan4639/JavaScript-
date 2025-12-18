@@ -1,0 +1,18 @@
+//Take a number n as input from user and create an array from 1 to n. Use reduce method to calculate sum and product of all numbers in the array.
+let n = prompt("Enter any number :");
+let arr=[];
+for (i=1;i<=n;i++)
+{
+    arr[i-1]=i;
+}
+console.log(arr);
+let sum = arr.reduce((previous,current)=>
+{
+    return previous+current;
+});
+console.log(sum);
+let product = arr.reduce((previous,current)=>
+{
+    return previous*current;
+});
+console.log(product);
