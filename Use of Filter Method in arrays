@@ -1,0 +1,7 @@
+//For a given array of numbers, print a new array which consists only even numbers from the given array.
+let arr=[1,2,3,4,5,6,7,8,9,10];
+let evenArr=arr.filter((val)=>
+{
+    return val%2==0;
+});
+console.log("The New array of even numbers is ",evenArr);
