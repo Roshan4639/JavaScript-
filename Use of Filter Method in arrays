@@ -13,4 +13,4 @@ let highMarks= marks.filter((val)=>
 {
     return val>=90;
 });
-console.log(highMarks);
+console.log(highMarks); 
