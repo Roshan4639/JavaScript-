@@ -1,0 +1,7 @@
+//For a given array of numbers, print the square of each value using the forEach loop.
+let givenArray=[3,9,12,16];
+givenArray.forEach(function (val)
+{
+  square = val*val;
+  console.log(square);
+});
