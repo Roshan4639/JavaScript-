@@ -5,3 +5,12 @@ let evenArr=arr.filter((val)=>
     return val%2==0;
 });
 console.log("The New array of even numbers is ",evenArr);
+
+
+//we are given array of marks of students. Filter out the marks of students that scored 90+
+let marks=[87,91,76,93,65,99,94,83,77,62,81];
+let highMarks= marks.filter((val)=>
+{
+    return val>=90;
+});
+console.log(highMarks);
