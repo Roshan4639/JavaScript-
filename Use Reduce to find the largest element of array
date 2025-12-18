@@ -1,0 +1,11 @@
+//For a given array of numbers, print the largest number of the array;
+let arr=[1,201,7,31,7,61,72,9,27,109];
+let largest=arr.reduce((previous,current)=>
+{   if(current>previous)
+    {
+        return current;
+    }
+    else 
+    return previous;
+});
+console.log("The greatest number is ",largest);
